@@ -34,9 +34,9 @@ function passwordcheck(str){
            }   
   }
   
-        console.log(arrConsecutive.includes(true)?"3 cons present":"password.ok");
+        console.log(arrConsecutive.includes(true)?"3 cons present":"password is ok now");
     }else{
-       console.log("must contains at least one lowercase,uppercase,or number");
+       console.log("must contains at least one lowercase,uppercase,number,special character");
 
     }
     }
